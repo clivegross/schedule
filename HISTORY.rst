@@ -3,6 +3,12 @@
 History
 -------
 
+0.5.0F (2017-04-15)
+++++++++++++++++++++
+
+- Forked the original PyPI module. Thanks @dbader.
+- Restructured for encapsulation in a larger app, without dependencies such as pip.
+
 0.4.0 (2016-11-28)
 ++++++++++++++++++++
 
