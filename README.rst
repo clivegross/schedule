@@ -13,6 +13,8 @@ schedule
 
 Python job scheduling for humans.
 
+Forked and restructured from the PyPI package by @dbader for direct import into another python app without dependence on pip.
+
 An in-process scheduler for periodic jobs that uses the builder pattern
 for configuration. Schedule lets you run Python functions (or any other
 callable) periodically at pre-determined intervals using a simple,
@@ -30,9 +32,11 @@ Features
 Usage
 -----
 
-.. code-block:: bash
+Clone or download into your python application.
 
-    $ pip install schedule
+.. code-clock:: python
+
+    git clone git@github.com:clivegross/schedule.git
 
 .. code-block:: python
 
